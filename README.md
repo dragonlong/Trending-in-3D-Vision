@@ -24,7 +24,11 @@ Single-View 3D Completion and Reconstruction [[Project](http://shapehd.csail.mit
 
 
 
-### 2. Perception Beyond Visiable(visible light)
+### 2. 3D Generative Model for Vision beyond Visiable
+[[Eslami et al.](Science-Machine Learning)]Neural scene representation and rendering
+[[Project](https://deepmind.com/blog/neural-scene-representation-and-rendering/)] Code[[tf-gqn](https://github.com/ogroth/tf-gqn)][[gqn-datasets](https://github.com/deepmind/gqn-datasets)]
+[[Pytorch-qgn](https://github.com/iShohei220/torch-gqn)]'seems to run quite slow'
+
 [[Tulsiani et al. ECCV 2018](https://arxiv.org/pdf/1807.10264.pdf)] Layer-structured 3D Scene Inference
 via View Synthesis [[Project](https://shubhtuls.github.io/lsi/)] [[Code](https://github.com/google/layered-scene-inference)]
 
@@ -32,18 +36,40 @@ via View Synthesis [[Project](https://shubhtuls.github.io/lsi/)] [[Code](https:/
 
 [[Song et al. CVPR 2018](https://arxiv.org/abs/1712.04569)] Im2Pano3D: Extrapolating 360° Structure and Semantics Beyond the Field of View [[Project](http://im2pano3d.cs.princeton.edu/)] [[Code](https://github.com/shurans/im2pano3d/)]
 
+
+
 ### 3. Pose Estimation
 
 #### 3.1 Scene Layout and Object Pose
+[[Wang et al. ARXIV pre-print 2019](https://arxiv.org/abs/1901.04780)]DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion
+[[Code](https://github.com/j96w/DenseFusion)]
+[[Project](https://sites.google.com/view/densefusion)]
+[[Video](https://www.youtube.com/watch?v=SsE5-FuK5jo)]
+
+[[Zhao et al. ARXIV pre-print 2019](https://arxiv.org/abs/1812.01387)]Estimating 6D Pose From Localizing Designated Surface Keypoints
+[[Code](https://github.com/sjtuytc/betapose)]
 
 [[Huang et al. NIPS 2018](https://arxiv.org/pdf/1810.13049.pdf)] Cooperative Holistic Scene Understanding: Unifying3D Object, Layout, and Camera Pose Estimation [[Video](https://www.youtube.com/watch?v=kXCugGwnr68)]
+
 
 [[Trem. et al. CoRL 2018](https://arxiv.org/pdf/1809.10790.pdf)] Deep Object Pose Estimation for Semantic Robotic
 Grasping of Household Objects  [[Project](https://research.nvidia.com/publication/2018-09_Deep-Object-Pose)] [[Code](https://github.com/NVlabs/Deep_Object_Pose)]
 
+[[Sundermeyer et al. ECCV 2018](http://openaccess.thecvf.com/content_ECCV_2018/papers/Martin_Sundermeyer_Implicit_3D_Orientation_ECCV_2018_paper.pdf)]Implicit 3D Orientation Learning for
+6D Object Detection from RGB Images(**Best paper Award**)
+[[Code](https://github.com/DLR-RM/AugmentedAutoencoder)]
+[[Supplement](https://static-content.springer.com/esm/chp%3A10.1007%2F978-3-030-01231-1_43/MediaObjects/474211_1_En_43_MOESM1_ESM.pdf)]
+[[Video](https://www.youtube.com/watch?v=jgb2eNNlPq4)]
+
 [[Tulsiani et al. CVPR 2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Tulsiani_Factoring_Shape_Pose_CVPR_2018_paper.pdf)] Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene [[Project](https://shubhtuls.github.io/factored3d/)] [[Code](https://github.com/shubhtuls/factored3d)]
 
+[[Tulsiani et al. CVPR 2018](https://arxiv.org/pdf/1801.03910.pdf)]Multi-view Consistency as Supervisory Signal  for Learning Shape and Pose Prediction
+[[Project](https://shubhtuls.github.io/mvcSnP/)]
+[[Code](https://github.com/shubhtuls/mvcSnP)]
+
 [[Tekin et al. CVPR 2018](https://arxiv.org/pdf/1711.08848.pdf)] Real-Time Seamless Single Shot 6D Object Pose Prediction [[Code](https://github.com/Microsoft/singleshotpose)] [[Supp.](http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/3117-supp.pdf)]
+
+[[Li et. al. ECCV 2018](https://arxiv.org/abs/1804.00175)] DeepIM: Deep Iterative Matching for 6D Pose Estimation [[Code](https://github.com/liyi14/mx-DeepIM0)]
 
 [[Qi et al. CVPR 2018](https://arxiv.org/pdf/1711.08488.pdf)] Frustum PointNets for 3D Object Detection from RGB-D Data [[Project](http://stanford.edu/~rqi/frustum-pointnets/)] [[Code](https://github.com/charlesq34/frustum-pointnets)]
 
@@ -87,12 +113,15 @@ Dense Human Pose Estimation In The Wild [[Project](http://densepose.org/)] [[Cod
 [[Zhu et al. NIPS 2018](https://papers.nips.cc/paper/7297-visual-object-networks-image-generation-with-disentangled-3d-representations.pdf)] Visual Object Networks: Image Generation with
 Disentangled 3D Representation
 
+
+
 ### 5. Unsupervised Key Points Detection
 [[Suwa. et al. NIPS 2018](https://arxiv.org/pdf/1807.03146.pdf)] Discovery of Latent 3D Keypoints via
 End-to-end Geometric Reasoning  [[Project](https://keypointnet.github.io/)] [[Code](https://github.com/tensorflow/models/tree/master/research/keypointnet)]
 
 [[Zhou et al. ECCV 2018](https://arxiv.org/pdf/1712.05765.pdf)] Unsupervised Domain Adaptation for 3D
 Keypoint Estimation via View Consistency [[Code](https://github.com/xingyizhou/3DKeypoints-DA)]  [[Results](https://drive.google.com/file/d/1UtlL7moKtNoVGyqWGRn8_c_57dwiqlVm/view)]
+
 
 
 ### 6. Point Cloud(PCL) Processing
@@ -125,6 +154,8 @@ differentiable rendering from 3D shapes
 [[Kato et al. CVPR 2018](https://arxiv.org/abs/1711.07566)] Neural 3D Mesh Renderer  [[Project](http://hiroharu-kato.com/projects_en/neural_renderer.html)] [[Code](https://github.com/hiroharu-kato/neural_renderer)]
 
 
+
+
 ### 7. SLAM today
 #### 7.1 3D Reconstruction & SLAM
 [[Shi et al. ECCV 2018](https://arxiv.org/pdf/1803.08407)] PlaneMatch: Patch Coplanarity Prediction for
@@ -145,7 +176,6 @@ Robust RGB-D Reconstruction  [[Project](http://www.yifeishi.net/planematch.html)
 [[Hedman et al. SIGGRAPH](http://visual.cs.ucl.ac.uk/pubs/instant3d/instant3d_siggraph_2018.pdf)] Instant 3D Photography  [[Project](http://visual.cs.ucl.ac.uk/pubs/instant3d/)] [[Code](http://visual.cs.ucl.ac.uk/pubs/instant3d/implementation_details.pdf)]
 
 [[Chen et al. ECCV 2018](http://gychen.org/PS-FCN/)] PS-FCN: A Flexible Learning Framework for Photometric Stereo [[Project](http://gychen.org/PS-FCN/)] [[Code](https://github.com/guanyingc/PS-FCN)]
-
 
 ## Misc:
 ### Workshops
