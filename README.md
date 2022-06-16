@@ -1,8 +1,9 @@
 ## Trending in 3D Vision
-I was first fascinated by 3D vision when I was a undergraduate back to 2014. And through these days I have seen quite a lot interesting papers comping out in the field of 3D vision, which motivates me to read and sort them, hoping it might help people who want to enter to world of 3D vision and get a sense of current SOTA methods and research trending in this exciting area. As we can see from this list, with better ability to learn 3D representations/priors from different modality of data, it is possible to stack learnable primitatives together to get detailed shapes for all kinds of objects; or leverage learnable depth, poses, and differentiable update with flow to handle dynamic scenes.
+The field of 3D vision is evolving like a tornado, with a lot of new ideas, applications coming out every day or week. But what are the driving force, what is the current overview of this field, what are the future directions to go? These are all the motivations behind this self-curated list, to get a sense of current SOTA methods and research trending in this exciting area. From this list, you may say, multiple modalities of data, various neural backbones are the major horses, or the boom of neural radiance field and differentiable rendering inspire a lot of new methods and applications, or you want to point out that self-supervision, connections with old-school topics are the real keys. Different people may have different opinions, thus making their own choices in this era of trending 3D vision trending.
+Here this list is just about existing possibilities, like now we have better ability to learn 3D representations/priors from different modality of data, it is possible to stack learnable primitatives together to get detailed shapes for all kinds of objects, or that we can leverage learnable depth, poses, and differentiable update with flow to handle dynamic scenes, and so on.
 
 
-Note that this repo started as a self-collected paper list based on my own appetite, which may reflect some bias. Some may not be precisely categorized, you can raise an issue, or send a pull request.
+Note that this repo started as a self-collected paper list based on my own appetite, which may reflect some bias. Some may not be precisely categorized, for which you can raise an issue, or send a pull request.
 
 ### [1. SLAM with Deep Learning](#content)
 
@@ -61,6 +62,10 @@ Note that this repo started as a self-collected paper list based on my own appet
   [[Watson et al. (CVPR '21)]( https://openaccess.thecvf.com/content/CVPR2021/papers/Watson_The_Temporal_Opportunist_Self-Supervised_Multi-Frame_Monocular_Depth_CVPR_2021_paper.pdf )] The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth
   [[Code]( https://github.com/nianticlabs/manydepth )]
   [[Video]( https://storage.googleapis.com/niantic-lon-static/research/manydepth/manydepth_cvpr_cc.mp4 )]
+
+  [[Sun et al. (CVPR '21)]( https://arxiv.org/pdf/2104.00681.pdf )]  NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video
+  [[Project]( http://zju3dv.github.io/neuralrecon/ )]
+  [[Code]( https://github.com/zju3dv/NeuralRecon/ )]
 
 ### [2. Dynamic Human, Animals and Objects Reconstruction](#content)
 #### Human avatars
@@ -370,6 +375,12 @@ Learning via Pose-aware Convolution
 
 
 ### [7. Neural Motion, Novel Rendering](#content)
+
+  [[Taheri et al. (CVPR '22)]( https://arxiv.org/abs/2112.11454 )] GOAL: Generating 4D Whole-Body Motion for Hand-Object Grasping
+  [[Project]( https://goal.is.tue.mpg.de/ )]
+  [[Video]( https://youtu.be/A7b8DYovDZY )]
+  [[Code]( https://github.com/otaheri/GOAL )]
+
   [[AIGERMAN et al. (SIGGRAPH '22)]( https://arxiv.org/pdf/2205.02904.pdf )]  Neural Jacobian Fields: Learning Intrinsic Mappings of Arbitrary　Meshes
 
   [[Vicini et al. (SIGGRAPH '22)]( http://rgl.s3.eu-central-1.amazonaws.com/media/papers/Vicini2022sdf_1.pdf )] Differentiable Signed Distance Function Rendering
@@ -462,3 +473,7 @@ Learning via Pose-aware Convolution
 - [NeRF papers citation](https://neuralfields.cs.brown.edu/index.html)
 <!-- [xxxx 2022 tutorial](https://neuralfields.cs.brown.edu/xxxx22.html)
 https://github.com/SilenceOverflow/Awesome-SLAM -->
+
+- [awesome-point-cloud-registration](https://github.com/wsunid/awesome-point-clouds-registration)
+
+- [awesome-equivariant-network](https://github.com/Chen-Cai-OSU/awesome-equivariant-network/blob/main/README.md#content)
