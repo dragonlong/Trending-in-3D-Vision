@@ -1,13 +1,13 @@
 
 ### [6. 3D Object Detection, Pose Estimation](#content)
-[[Yang et al. (CVPR '22)](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_ArtiBoost_Boosting_Articulated_3D_Hand-Object_Pose_Estimation_via_Online_Exploration_CVPR_2022_paper.pdf)] ArtiBoost: Boosting Articulated 3D Hand-Object Pose Estimation via
+[[Yang et al. (**CVPR '22**)](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_ArtiBoost_Boosting_Articulated_3D_Hand-Object_Pose_Estimation_via_Online_Exploration_CVPR_2022_paper.pdf)] ArtiBoost: Boosting Articulated 3D Hand-Object Pose Estimation via
 Online Exploration and Synthesis
 
-[[Yin et al. (CVPR '22)]( https://arxiv.org/pdf/2203.15765.pdf )]  FisherMatch: Semi-Supervised Rotation Regression via Entropy-based Filtering
+[[Yin et al. (**CVPR '22**)]( https://arxiv.org/pdf/2203.15765.pdf )]  FisherMatch: Semi-Supervised Rotation Regression via Entropy-based Filtering
 [[Project]( https://yd-yin.github.io/FisherMatch/ )]
 [[Code]( https://github.com/yd-yin/FisherMatch )]
 
-[[Sun et al. (CVPR '22)]( https://arxiv.org/pdf/2205.12257.pdf )] OnePose: One-Shot Object Pose Estimation without CAD Models
+[[Sun et al. (**CVPR '22**)]( https://arxiv.org/pdf/2205.12257.pdf )] OnePose: One-Shot Object Pose Estimation without CAD Models
 [[Project]( https://zju3dv.github.io/onepose/ )]
 [[CodeSoon]( https://github.com/zju3dv/OnePose)]
 [[Supp]( https://zju3dv.github.io/onepose/files/onepose_supp.pdf )]

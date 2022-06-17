@@ -18,37 +18,37 @@
 [[Project]( http://rgl.epfl.ch/publications/Vicini2022SDF )]
 [[Video]( http://rgl.s3.eu-central-1.amazonaws.com/media/papers/Vicini2022sdf.mp4 )]
 
-[[Or-El et al. (CVPR '22)]( https://arxiv.org/abs/2112.11427 )] StyleSDF: High-Resolution 3D-Consistent Image and Geometry Generation
+[[Or-El et al. (**CVPR '22**)]( https://arxiv.org/abs/2112.11427 )] StyleSDF: High-Resolution 3D-Consistent Image and Geometry Generation
 [[Project]( https://stylesdf.github.io/ )]
 [[Code](https://github.com/royorel/StyleSDF)]
 [[Demo]( https://colab.research.google.com/github/royorel/StyleSDF/blob/main/StyleSDF_demo.ipynb )]
 
-[[Girdhar et al. (CVPR '22)]( https://arxiv.org/abs/2201.08377 )] Omnivore: A Single Model for Many Visual Modalities
+[[Girdhar et al. (**CVPR '22**)]( https://arxiv.org/abs/2201.08377 )] Omnivore: A Single Model for Many Visual Modalities
 [[Project]( https://facebookresearch.github.io/omnivore )]
 [[Code](https://github.com/facebookresearch/omnivore )]
 
 
 
-[[Noguchi et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Noguchi_Watch_It_Move_Unsupervised_Discovery_of_3D_Joints_for_Re-Posing_CVPR_2022_paper.pdf )] Watch It Move: Unsupervised Discovery of 3D Joints for Re-Posing of Articulated Objects
+[[Noguchi et al. (**CVPR '22**)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Noguchi_Watch_It_Move_Unsupervised_Discovery_of_3D_Joints_for_Re-Posing_CVPR_2022_paper.pdf )] Watch It Move: Unsupervised Discovery of 3D Joints for Re-Posing of Articulated Objects
 [[Project]( https://nvlabs.github.io/watch-it-move/ )]
 [[Code]( https://github.com/NVlabs/watch-it-move )]
 [[Video]( https://youtu.be/oRnnuCVV89o )]
 
-[[Gong et al. (CVPR '22)]( https://arxiv.org/pdf/2203.15625.pdf )] PoseTriplet: Co-evolving 3D Human Pose Estimation, Imitation, and Hallucination under Self-supervision
+[[Gong et al. (**CVPR '22**)]( https://arxiv.org/pdf/2203.15625.pdf )] PoseTriplet: Co-evolving 3D Human Pose Estimation, Imitation, and Hallucination under Self-supervision
 [[Code]( https://github.com/garfield-kh/posetriplet )]
 
-[[Wu et al. (CVPR '22)]( https://arxiv.org/abs/2112.02306 )] Toward Practical Monocular Indoor Depth Estimation
+[[Wu et al. (**CVPR '22**)]( https://arxiv.org/abs/2112.02306 )] Toward Practical Monocular Indoor Depth Estimation
 [[Project]( https://distdepth.github.io/ )]
 [[Code]( https://github.com/facebookresearch/DistDepth )]
 [[Video]( https://youtu.be/s9JdoR1xbz8 )]
 [[Data](https://drive.google.com/file/d/1KfDFyTg9-1w1oJB4oT-DUjKC6LG0enwb/view?usp=sharing)]
 
 
-[[Wei et al. (CVPR '22)](https://openaccess.thecvf.com/content/CVPR2022/papers/Wei_Self-Supervised_Neural_Articulated_Shape_and_Appearance_Models_CVPR_2022_paper.pdf )] Self-supervised Neural Articulated Shape and Appearance Models
+[[Wei et al. (**CVPR '22**)](https://openaccess.thecvf.com/content/CVPR2022/papers/Wei_Self-Supervised_Neural_Articulated_Shape_and_Appearance_Models_CVPR_2022_paper.pdf )] Self-supervised Neural Articulated Shape and Appearance Models
 [[Project]( https://weify627.github.io/nasam/ )]
 [[Video]( https://youtu.be/0YbhTxALi8M )]
 
-[[Chan et al. (CVPR '22)](https://arxiv.org/pdf/2112.07945.pdf)] EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks
+[[Chan et al. (**CVPR '22**)](https://arxiv.org/pdf/2112.07945.pdf)] EG3D: Efficient Geometry-aware 3D Generative Adversarial Networks
 [[Project]( https://nvlabs.github.io/eg3d/ )]
 [[Code]( https://github.com/NVlabs/eg3d )]
 [[Video]( https://www.youtube.com/watch?v=cXxEwI7QbKg )]

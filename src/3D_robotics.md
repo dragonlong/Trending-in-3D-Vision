@@ -3,11 +3,11 @@
   [[Project]( https://dannydriess.github.io/nerf-rl/ )]
   [[Video]( https://dannydriess.github.io/nerf-rl/video.mp4 )]
 
-  [[Gao et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/html/Gao_ObjectFolder_2.0_A_Multisensory_Object_Dataset_for_Sim2Real_Transfer_CVPR_2022_paper.html )]  ObjectFolder 2.0: A Multisensory Object Dataset for Sim2Real Transfer
+  [[Gao et al. (**CVPR '22**)]( https://openaccess.thecvf.com/content/CVPR2022/html/Gao_ObjectFolder_2.0_A_Multisensory_Object_Dataset_for_Sim2Real_Transfer_CVPR_2022_paper.html )]  ObjectFolder 2.0: A Multisensory Object Dataset for Sim2Real Transfer
   [[Project]( https://ai.stanford.edu/~rhgao/objectfolder2.0/ )]
   [[Code]( https://github.com/rhgao/ObjectFolder )]
   [[Video]( https://youtu.be/e5aToT3LkRA )]
-  
+
   [[Ortiz et al. (RSS '22)]( https://arxiv.org/abs/2204.02296 )] iSDF: Real-Time Neural Signed Distance Fields for Robot Perception
   [[Project]( https://joeaortiz.github.io/iSDF/ )]
   [[Code]( https://github.com/facebookresearch/iSDF )]

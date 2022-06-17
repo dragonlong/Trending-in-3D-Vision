@@ -6,7 +6,7 @@
   [[Hughe et al. (ARXIV '22)]( https://arxiv.org/pdf/2201.13360.pdf )]  Hydra: A Real-time Spatial Perception Engine for 3D Scene Graph Construction and Optimization
   [[Video]( https://youtu.be/qZg2lSeTuvM )]
 
-  [[Zhu at al. (CVPR '22)]( https://arxiv.org/pdf/2112.12130.pdf )] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM
+  [[Zhu at al. (**CVPR '22**)]( https://arxiv.org/pdf/2112.12130.pdf )] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM
   [[Project]( https://pengsongyou.github.io/nice-slam )]
   [[Code]( https://github.com/cvg/nice-slam )]
   [[Video](https://youtu.be/V5hYTz5os0M )]

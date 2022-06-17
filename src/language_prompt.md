@@ -4,7 +4,7 @@
   [[Project]( https://guytevet.github.io/motionclip-page/ )]
   [[Code]( https://github.com/GuyTevet/MotionCLIP )]
 
-  [[Wang et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/html/Wang_CLIP-NeRF_Text-and-Image_Driven_Manipulation_of_Neural_Radiance_Fields_CVPR_2022_paper.html )] CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields
+  [[Wang et al. (**CVPR '22**)]( https://openaccess.thecvf.com/content/CVPR2022/html/Wang_CLIP-NeRF_Text-and-Image_Driven_Manipulation_of_Neural_Radiance_Fields_CVPR_2022_paper.html )] CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields
   [[Project]( https://cassiepython.github.io/clipnerf/ )]
   [[Code]( https://github.com/cassiePython/CLIPNeRF )]
   [[Video]( https://cassiepython.github.io/clipnerf/images/video.mp4 )]

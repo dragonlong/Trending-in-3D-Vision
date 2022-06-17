@@ -4,11 +4,11 @@
   Representations via Graph Neural Networks
   [[Project]( https://lemonatsu.github.io/danbo/ )]
 
-  [[Jiang et al. (CVPR '22)]( https://arxiv.org/pdf/2201.12792.pdf )] SelfRecon: Self Reconstruction Your Digital Avatar from Monocular Video
+  [[Jiang et al. (**CVPR '22**)]( https://arxiv.org/pdf/2201.12792.pdf )] SelfRecon: Self Reconstruction Your Digital Avatar from Monocular Video
   [[Project]( https://jby1993.github.io/SelfRecon/ )]
   [[Code]( https://github.com/jby1993/SelfReconCode )]
 
-  [[Weng et al. (CVPR '22)]( https://arxiv.org/abs/2201.04127 )] HumanNeRF: Free-viewpoint Rendering of Moving People from Monocular Video
+  [[Weng et al. (**CVPR '22**)]( https://arxiv.org/abs/2201.04127 )] HumanNeRF: Free-viewpoint Rendering of Moving People from Monocular Video
   [[Project]( https://grail.cs.washington.edu/projects/humannerf/ )]
   [[Code]( https://github.com/chungyiweng/humannerf )]
   [[Video]( https://youtu.be/GM-RoZEymmw )]
@@ -19,7 +19,7 @@
   [[Video]( http://www.liuyebin.com/Function4D/assets/supp_video.mp4 )]
 
 #### Animals capture
-  [[Yang et al. (CVPR '22)]( https://banmo-www.github.io/banmo-2-14.pdf )] BANMo: Building Animatable 3D Neural Models from Many Casual Videos
+  [[Yang et al. (**CVPR '22**)]( https://banmo-www.github.io/banmo-2-14.pdf )] BANMo: Building Animatable 3D Neural Models from Many Casual Videos
   [[Project]( https://banmo-www.github.io/ )]
   [[Code]( https://github.com/facebookresearch/banmo )]
   [[Video]( https://youtu.be/1NUa-yvFGA0 )]
@@ -29,7 +29,7 @@
   [[Video]( https://youtu.be/_FsADb0XmpY )]
 
 #### Human-object interaction
-  [[Jiang et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_NeuralHOFusion_Neural_Volumetric_Rendering_Under_Human-Object_Interactions_CVPR_2022_paper.pdf)] NeuralHOFusion: Neural Volumetric Rendering under Human-object Interactions
+  [[Jiang et al. (**CVPR '22**)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_NeuralHOFusion_Neural_Volumetric_Rendering_Under_Human-Object_Interactions_CVPR_2022_paper.pdf)] NeuralHOFusion: Neural Volumetric Rendering under Human-object Interactions
   [[Project]( https://nowheretrix.github.io/neuralfusion/ )]
   [[Video]( https://youtu.be/Stvks4rZMF0 )]
 
@@ -38,11 +38,11 @@
   [[Code]( https://github.com/hassony2/homan )]
 
 #### Scene-level 3D dynamics
-  [[Grauman et al. (CVPR '22)]( https://arxiv.org/abs/2110.07058 )] Ego4D: Around the World in 3,000 Hours of Egocentric Video
+  [[Grauman et al. (**CVPR '22**)]( https://arxiv.org/abs/2110.07058 )] Ego4D: Around the World in 3,000 Hours of Egocentric Video
   [[Project]( https://ego4d-data.org/ )]
   [[Code]( https://github.com/EGO4D )]
 
-  [[Li et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Neural_3D_Video_Synthesis_From_Multi-View_Video_CVPR_2022_paper.pdf )] Neural 3D Video Synthesis From Multi-View Video
+  [[Li et al. (**CVPR '22**)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Neural_3D_Video_Synthesis_From_Multi-View_Video_CVPR_2022_paper.pdf )] Neural 3D Video Synthesis From Multi-View Video
   [[Project]( https://neural-3d-video.github.io/ )]
   [[Video]( https://neural-3d-video.github.io/resources/video.mp4 )]
   [[Data]( https://github.com/facebookresearch/Neural_3D_Video )]
