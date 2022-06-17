@@ -1,7 +1,7 @@
 ## Trending in 3D Vision
-The field of 3D vision is evolving like a tornado, with a lot of new ideas, applications coming out every day or week. But what are the driving force, what is the current overview of this field, what are the future directions to go? These are all the motivations behind this self-curated list, to get a sense of current SOTA methods and research trending in this exciting area. From this list, you may say, multiple modalities of data, various neural backbones are the major horses, or the boom of neural radiance field and differentiable rendering inspire a lot of new methods and applications, or you want to point out that self-supervision, connections with old-school topics are the real keys. Different people may have different opinions, thus making their own choices in this era of trending 3D vision trending.
-Here this list is just about existing possibilities, like now we have better ability to learn 3D representations/priors from different modality of data, it is possible to stack learnable primitatives together to get detailed shapes for all kinds of objects, or that we can leverage learnable depth, poses, and differentiable update with flow to handle dynamic scenes, and so on.
+I first got fascinated by the beauty of 3D vision since 2015. After that, so many new and wonderful ideas, works have been brought into this field, and it seems so hard to catch up with this fast-evolving area today. This leads to the major motivation behind this paper reading list: to get a sense of current SOTA methods, and provide an overview of the research trending in the 3D vision field, mainly with deep learning.
 
+From this list, you may see, various applications, multiple modalities of data, powerful neural backbones are the major working horses, or the boom of neural radiance field and differentiable rendering inspire a lot of new methods and tasks, or you want to point out that self-supervision, data-efficient learning are the critical keys. Different people may have different opinions, but this list is about existing possibilities in 3D vision, to which you may say 'wow, this is even possible', or 'aha, I never imagined such a method'.
 
 Note that this repo started as a self-collected paper list based on my own appetite, which may reflect some bias. Some may not be precisely categorized, for which you can raise an issue, or send a pull request.
 
@@ -9,63 +9,47 @@ Note that this repo started as a self-collected paper list based on my own appet
 
   [[Chen et al. (ARXIV '22)]( https://arxiv.org/pdf/2203.01087.pdf )] Vision-based Large-scale 3D Semantic Mapping for Autonomous Driving Applications
 
-  [[Wu et al. (CVPR '22)]( https://arxiv.org/abs/2112.02306 )] Toward Practical Monocular Indoor Depth Estimation
-  [[Project]( https://distdepth.github.io/ )]
-  [[Code]( https://github.com/facebookresearch/DistDepth )]
-  [[Video]( https://youtu.be/s9JdoR1xbz8 )]
-  [[Data](https://drive.google.com/file/d/1KfDFyTg9-1w1oJB4oT-DUjKC6LG0enwb/view?usp=sharing)]
-
   [[Avraham et al. (ARXIV '22)]( https://arxiv.org/abs/2206.01916 )]  Nerfels: Renderable Neural Codes for Improved Camera Pose Estimation
 
-  [[Scona et al. (ICRA '22)]( https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/dyson-robotics-lab/Scona_etal_ICRA2022.pdf )]  From Scene Flow to Visual Odometry through Local and Global Regularisation in Markov Random Fields
-
   [[Hughe et al. (ARXIV '22)]( https://arxiv.org/pdf/2201.13360.pdf )]  Hydra: A Real-time Spatial Perception Engine for 3D Scene Graph Construction and Optimization
-  [[Project]( link )]
-  [[Code]( link )]
   [[Video]( https://youtu.be/qZg2lSeTuvM )]
 
-  [[Schops et al. (CVPR '19)]( https://openaccess.thecvf.com/content_CVPR_2019/papers/Schops_BAD_SLAM_Bundle_Adjusted_Direct_RGB-D_SLAM_CVPR_2019_paper.pdf )] BAD SLAM: Bundle Adjusted Direct RGB-D SLAM
-  [[Project]( https://www.eth3d.net/ )]
-  [[Code]( https://github.com/ETH3D/badslam )]
-
-  [[Murthy J. et al. (ICRA '20)](https://arxiv.org/pdf/1910.10672.pdf)] ∇SLAM: Automagically differentiable SLAM
-  [[Project]( https://github.com/gradslam/gradslam )]
-  [[Code]( https://gradslam.github.io/ )]
-
-  [[Lin et al. (CVPR '21)]( https://arxiv.org/pdf/2109.07982.pdf )] R3LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package
-  [[Project]( link )]
-  [[Code]( https://github.com/hku-mars/r3live )]
-
-  [[Karkus et al. (CVPR '21)]( https://arxiv.org/pdf/2105.07593.pdf )] Differentiable SLAM-net: Learning Particle SLAM for Visual Navigation
-  [[Project]( https://sites.google.com/view/slamnet)]
-
-  [[Teed at al. (CVPR '21)]( https://arxiv.org/pdf/2103.12032.pdf )] Tangent Space Backpropagation for 3D Transformation Groups
-  [[Code]( https://github.com/princeton-vl/lietorch )]
-
-  [[Zhu at al. (Arxiv '21)]( https://arxiv.org/pdf/2112.12130.pdf )] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM
+  [[Zhu at al. (CVPR '22)]( https://arxiv.org/pdf/2112.12130.pdf )] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM
   [[Project]( https://pengsongyou.github.io/nice-slam )]
-
-  [[Wei et al. (ICCV '21)]( https://openaccess.thecvf.com/content/ICCV2021/papers/Wei_NerfingMVS_Guided_Optimization_of_Neural_Radiance_Fields_for_Indoor_Multi-View_ICCV_2021_paper.pdf )] NerfingMVS: Guided Optimization of Neural Radiance Fields for Indoor Multi-view Stereo
-  [[Project]( https://weiyithu.github.io/NerfingMVS/ )]
-  [[Code]( https://github.com/weiyithu/NerfingMVS )]
-  [[Video]( https://youtu.be/i-b5lPnYipA )]
+  [[Code]( https://github.com/cvg/nice-slam )]
+  [[Video](https://youtu.be/V5hYTz5os0M )]
 
   [[Teed et al. (NeurIPS '21)]( https://arxiv.org/pdf/2108.10869.pdf )] DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras
-  [[Project]( link )]
   [[Code]( https://github.com/princeton-vl/DROID-SLAM )]
   [[Video]( https://www.youtube.com/watch?v=GG78CSlSHSA )]
+
+  [[Yang et al. (3DV '21)]( https://arxiv.org/abs/2111.07418 )] TANDEM: Tracking and Dense Mapping in Real-time using Deep Multi-view Stereo
+  [[Project]( https://vision.in.tum.de/research/vslam/tandem )]
+  [[Code]( https://github.com/tum-vision/tandem )]
+  [[Video](https://youtu.be/L4C8Q6Gvl1w)]
+
+  [[Lin et al. (ARXIV '21)]( https://arxiv.org/pdf/2109.07982.pdf )] R3LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package
+  [[Code]( https://github.com/hku-mars/r3live )]
+  [[Video]( https://youtu.be/j5fT8NE5fdg )]
 
   [[Duzceker et al. (CVPR '21)](https://openaccess.thecvf.com/content/CVPR2021/papers/Duzceker_DeepVideoMVS_Multi-View_Stereo_on_Video_With_Recurrent_Spatio-Temporal_Fusion_CVPR_2021_paper.pdf)] DeepVideoMVS: Multi-View Stereo on Video with Recurrent Spatio-Temporal Fusion
   [[Code]( https://github.com/ardaduz/deep-video-mvs )]
   [[Video]( https://www.youtube.com/watch?v=ikpotjxwcp4 )]
 
-  [[Watson et al. (CVPR '21)]( https://openaccess.thecvf.com/content/CVPR2021/papers/Watson_The_Temporal_Opportunist_Self-Supervised_Multi-Frame_Monocular_Depth_CVPR_2021_paper.pdf )] The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth
-  [[Code]( https://github.com/nianticlabs/manydepth )]
-  [[Video]( https://storage.googleapis.com/niantic-lon-static/research/manydepth/manydepth_cvpr_cc.mp4 )]
+  [[Teed at al. (CVPR '21)]( https://arxiv.org/pdf/2103.12032.pdf )] Tangent Space Backpropagation for 3D Transformation Groups
+  [[Code]( https://github.com/princeton-vl/lietorch )]
 
   [[Sun et al. (CVPR '21)]( https://arxiv.org/pdf/2104.00681.pdf )]  NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video
   [[Project]( http://zju3dv.github.io/neuralrecon/ )]
   [[Code]( https://github.com/zju3dv/NeuralRecon/ )]
+
+  [[Murthy J. et al. (ICRA '20)](https://arxiv.org/pdf/1910.10672.pdf)] ∇SLAM: Automagically differentiable SLAM
+  [[Project]( https://github.com/gradslam/gradslam )]
+  [[Code]( https://gradslam.github.io/ )]
+
+  [[Schops et al. (CVPR '19)]( https://openaccess.thecvf.com/content_CVPR_2019/papers/Schops_BAD_SLAM_Bundle_Adjusted_Direct_RGB-D_SLAM_CVPR_2019_paper.pdf )] BAD SLAM: Bundle Adjusted Direct RGB-D SLAM
+  [[Project]( https://www.eth3d.net/ )]
+  [[Code]( https://github.com/ETH3D/badslam )]
 
 ### [2. Dynamic Human, Animals and Objects Reconstruction](#content)
 #### Human avatars
@@ -78,16 +62,15 @@ Note that this repo started as a self-collected paper list based on my own appet
   [[Code]( https://github.com/chungyiweng/humannerf )]
   [[Video]( https://youtu.be/GM-RoZEymmw )]
 
-  [[Yu et al. (CVPR '21)]( https://arxiv.org/pdf/2105.01859.pdf )] Function4D: Real-time Human Volumetric Capture from Very Sparse Consumer RGBD Sensors
+  [[Yu et al. (CVPR '21)](https://arxiv.org/pdf/2105.01859.pdf )] Function4D: Real-time Human Volumetric Capture from Very Sparse Consumer RGBD Sensors
   [[Project]( http://www.liuyebin.com/Function4D/Function4D.html )]
+  [[Data]( https://github.com/ytrock/THuman2.0-Dataset )]
+  [[Video]( http://www.liuyebin.com/Function4D/assets/supp_video.mp4 )]
 
-  [[(ARXIV '21)]( https://arxiv.org/pdf/2112.10203.pdf )] hVTR: Hybrid Volumetric-Textural Rendering for Human Avatars
-  [[Project]( https://www.cs.umd.edu/~taohu/hvtr/ )]
-
-  [[Jiang et al. (ARXIV '22)]( https://arxiv.org/pdf/2201.12792.pdf )] SelfRecon: Self Reconstruction Your Digital Avatar from Monocular Video
+  [[Jiang et al. (CVPR '22)]( https://arxiv.org/pdf/2201.12792.pdf )] SelfRecon: Self Reconstruction Your Digital Avatar from Monocular Video
   [[Project]( https://jby1993.github.io/SelfRecon/ )]
+  [[Code]( https://github.com/jby1993/SelfReconCode )]
 
-  [[Yao et al. (ARXIV '22)]( https://arxiv.org/pdf/2112.12390.pdf )] Learning Implicit Body Representations from Double Diffusion Based Neural Radiance Fields
 
 #### Animals capture
   [[Yang et al. (CVPR '22)]( https://banmo-www.github.io/banmo-2-14.pdf )] BANMo: Building Animatable 3D Neural Models from Many Casual Videos
@@ -99,11 +82,10 @@ Note that this repo started as a self-collected paper list based on my own appet
   [[Project]( https://dove3d.github.io/ )]
   [[Video]( https://youtu.be/_FsADb0XmpY )]
 
-
 #### Human-object interaction
   [[Hasson et al. (CVPR '21)]( https://arxiv.org/abs/2108.07044 )] Towards unconstrained joint hand-object reconstruction from RGB videos
-  [[Project]( https://github.com/hassony2/homan )]
-  [[Code]( https://hassony2.github.io/homan.html )]
+  [[Project](https://hassony2.github.io/homan.html )]
+  [[Code]( https://github.com/hassony2/homan )]
 
   [[Jiang et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_NeuralHOFusion_Neural_Volumetric_Rendering_Under_Human-Object_Interactions_CVPR_2022_paper.pdf)] NeuralHOFusion: Neural Volumetric Rendering under Human-object Interactions
   [[Project]( https://nowheretrix.github.io/neuralfusion/ )]
@@ -128,18 +110,47 @@ Note that this repo started as a self-collected paper list based on my own appet
   [[Code]( https://omnimatte.github.io/#code )]
   [[Video]( https://omnimatte.github.io/#video )]
 
+  [[Grauman et al. (CVPR '22)]( https://arxiv.org/abs/2110.07058 )] Ego4D: Around the World in 3,000 Hours of Egocentric Video
+  [[Project]( https://ego4d-data.org/ )]
+  [[Code]( https://github.com/EGO4D )]
+
 ### [3. Self-Supervised 3D Representations Learning](#content)
+[[Or-El et al. (CVPR '22)]( https://arxiv.org/abs/2112.11427 )] StyleSDF: High-Resolution 3D-Consistent Image and Geometry Generation
+[[Project]( https://stylesdf.github.io/ )]
+[[Code](https://github.com/royorel/StyleSDF)]
+[[Demo]( https://colab.research.google.com/github/royorel/StyleSDF/blob/main/StyleSDF_demo.ipynb )]
+
+[[Girdhar et al. (CVPR '22)]( https://arxiv.org/abs/2201.08377 )] Omnivore: A Single Model for Many Visual Modalities
+[[Project]( https://facebookresearch.github.io/omnivore )]
+[[Code](https://github.com/facebookresearch/omnivore )]
+
+[[Vicini et al. (SIGGRAPH '22)]( http://rgl.s3.eu-central-1.amazonaws.com/media/papers/Vicini2022sdf_1.pdf )] Differentiable Signed Distance Function Rendering
+[[Project]( http://rgl.epfl.ch/publications/Vicini2022SDF )]
+[[Video]( http://rgl.s3.eu-central-1.amazonaws.com/media/papers/Vicini2022sdf.mp4 )]
+
+  [[Noguchi et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Noguchi_Watch_It_Move_Unsupervised_Discovery_of_3D_Joints_for_Re-Posing_CVPR_2022_paper.pdf )] Watch It Move: Unsupervised Discovery of 3D Joints for Re-Posing of Articulated Objects
+  [[Project]( https://nvlabs.github.io/watch-it-move/ )]
+  [[Code]( https://github.com/NVlabs/watch-it-move )]
+  [[Video]( https://youtu.be/oRnnuCVV89o )]
 
   [[Gkioxari et al. (ARXIV '22)]( https://drive.google.com/file/d/1E6xSbUzuu6soAA-jkaGCFl97LZ8SVRvr/view )] Learning 3D Object Shape and Layout without 3D Supervision
   [[Project]( https://gkioxari.github.io/usl/ )]
   [[Video]( https://youtu.be/PKhGIiMuRJU )]
 
-  [[Rombach et al. (ICCV '21)]( https://arxiv.org/pdf/2104.07652.pdf)]
-    Geometry-Free View Synthesis: Transformers and no 3D Priors
-   Scene Representation Transformer: Geometry-Free Novel View Synthesis Through Set-Latent Scene Representations
-  [[Project]( https://compvis.github.io/geometry-free-view-synthesis/ )]
-  [[Code]( https://github.com/CompVis/geometry-free-view-synthesis )]
-  [[Video]( https://github.com/CompVis/geometry-free-view-synthesis/blob/master/assets/acid_long.mp4 )]
+  [[Boss et al. (ARXIV '22)]( https://arxiv.org/pdf/2205.15768.pdf)]  SAMURAI: Shape And Material from Unconstrained Real-world Arbitrary Image collections
+  [[Project]( https://markboss.me/publication/2022-samurai/ )]
+  [[Code]( link )]
+  [[Video]( https://youtu.be/LlYuGDjXp-8 )]
+
+  [[Gong et al. (CVPR '22 Oral)]( https://arxiv.org/pdf/2203.15625.pdf )] PoseTriplet: Co-evolving 3D Human Pose Estimation, Imitation, and Hallucination under Self-supervision
+  [[Code]( https://github.com/garfield-kh/posetriplet )]
+
+  [[Wu et al. (CVPR '22)]( https://arxiv.org/abs/2112.02306 )] Toward Practical Monocular Indoor Depth Estimation
+  [[Project]( https://distdepth.github.io/ )]
+  [[Code]( https://github.com/facebookresearch/DistDepth )]
+  [[Video]( https://youtu.be/s9JdoR1xbz8 )]
+  [[Data](https://drive.google.com/file/d/1KfDFyTg9-1w1oJB4oT-DUjKC6LG0enwb/view?usp=sharing)]
+
 
   [[Wei et al. (CVPR '22)](https://openaccess.thecvf.com/content/CVPR2022/papers/Wei_Self-Supervised_Neural_Articulated_Shape_and_Appearance_Models_CVPR_2022_paper.pdf )] Self-supervised Neural Articulated Shape and Appearance Models
   [[Project]( https://weify627.github.io/nasam/ )]
@@ -150,20 +161,27 @@ Note that this repo started as a self-collected paper list based on my own appet
   [[Code]( https://github.com/NVlabs/eg3d )]
   [[Video]( https://www.youtube.com/watch?v=cXxEwI7QbKg )]
 
-  [[Hasselgren　et al. (ARXIV '22)]( https://arxiv.org/abs/2206.03380 )] Shape, Light & Material Decomposition from Images using Monte Carlo Rendering and Denoising
+  [[Hasselgren et al. (ARXIV '22)]( https://arxiv.org/abs/2206.03380 )] Shape, Light & Material Decomposition from Images using Monte Carlo Rendering and Denoising
 
-  [[Nicolet et al. (ACM Trans. Graph. '21)]( http://rgl.s3.eu-central-1.amazonaws.com/media/papers/Nicolet2021Large.pdf )] Large Steps in Inverse Rendering of Geometry
+  [[Rombach et al. (ICCV '21)]( https://arxiv.org/pdf/2104.07652.pdf)]
+    Geometry-Free View Synthesis: Transformers and no 3D Priors
+   Scene Representation Transformer: Geometry-Free Novel View Synthesis Through Set-Latent Scene Representations
+  [[Project]( https://compvis.github.io/geometry-free-view-synthesis/ )]
+  [[Code]( https://github.com/CompVis/geometry-free-view-synthesis )]
+  [[Video]( https://github.com/CompVis/geometry-free-view-synthesis/blob/master/assets/acid_long.mp4 )]
+
+  [[Harley et al. (CVPR '21)]( https://openaccess.thecvf.com/content/CVPR2021/papers/Harley_Track_Check_Repeat_An_EM_Approach_to_Unsupervised_Tracking_CVPR_2021_paper.pdf )] Track, Check, Repeat: An EM Approach to Unsupervised Tracking
+  [[Project]( http://www.cs.cmu.edu/~aharley/em_cvpr21/ )]
+  [[Code]( https://github.com/aharley/track_check_repeat )]
+
+  [[Watson et al. (CVPR '21)]( https://openaccess.thecvf.com/content/CVPR2021/papers/Watson_The_Temporal_Opportunist_Self-Supervised_Multi-Frame_Monocular_Depth_CVPR_2021_paper.pdf )] The Temporal Opportunist: Self-Supervised Multi-Frame Monocular Depth
+  [[Code]( https://github.com/nianticlabs/manydepth )]
+  [[Video]( https://storage.googleapis.com/niantic-lon-static/research/manydepth/manydepth_cvpr_cc.mp4 )]
+
+  [[Nicolet et al. (SIGGRAPH Asia '21)]( http://rgl.s3.eu-central-1.amazonaws.com/media/papers/Nicolet2021Large.pdf )] Large Steps in Inverse Rendering of Geometry
   [[Project]( https://rgl.epfl.ch/publications/Nicolet2021Large )]
   [[Code]( https://github.com/rgl-epfl/cholespy )]
   [[Video]( https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Nicolet2021Large_1.mp4 )]
-
-  [[Gong et al. (CVPR '22 Oral)]( https://arxiv.org/pdf/2203.15625.pdf )]  PoseTriplet: Co-evolving 3D Human Pose Estimation, Imitation, and Hallucination under Self-supervision
-  [[Code]( https://github.com/garfield-kh/posetriplet )]
-
-  [[Boss et al. (ARXIV '22)]( https://arxiv.org/pdf/2205.15768.pdf)]  SAMURAI: Shape And Material from Unconstrained Real-world Arbitrary Image collections
-  [[Project]( https://markboss.me/publication/2022-samurai/ )]
-  [[Code]( link )]
-  [[Video]( https://youtu.be/LlYuGDjXp-8 )]
 
   [[Wu et al. (CVPR '20 Best Paper)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Unsupervised_Learning_of_Probably_Symmetric_Deformable_3D_Objects_From_Images_CVPR_2020_paper.pdf )]   Unsupervised Learning of Probably Symmetric Deformable 3D Objects From Images in the Wild
   [[Project]( https://elliottwu.com/projects/20_unsup3d/ )]
@@ -179,49 +197,53 @@ Note that this repo started as a self-collected paper list based on my own appet
 
 
 ### [4. Breakthroughs in Deep Implicit Functions](#content)
-#### Novel representation
 
-[[Xu et al. (CVPR '22 Oral)]( https://arxiv.org/pdf/2201.08845.pdf )] Point-NeRF: Point-based Neural Radiance Fields
-[[Project]( https://xharlie.github.io/projects/project_sites/pointnerf/ )]
-[[Code]( https://github.com/Xharlie/pointnerf )]
-[[Video]( https://youtu.be/zmR9j-4AebA )]
-
-[[Suhail et al. (CVPR '22 Oral)]( https://arxiv.org/pdf/2112.09687.pdf )] Light Field Neural Rendering
-[[Project]( https://light-field-neural-rendering.github.io/ )]
-[[Code]( https://github.com/google-research/google-research/tree/master/light_field_neural_rendering )]
-
+#### Topology-aware
 [[Park et al. (SIGGRAPH Asia '21)]( https://arxiv.org/pdf/2106.13228.pdf )] A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields
 [[Project]( https://hypernerf.github.io/ )]
 [[Code]( https://github.com/google/hypernerf )]
 [[Video]( https://youtu.be/qzgdE_ghkaI )]
 
+[[Palafox et al. (CVPR '22)]( https://arxiv.org/pdf/2201.08141.pdf )] SPAMs: Structured Implicit Parametric Models
+[[Project]( https://pablopalafox.github.io/spams/ )]
+[[Video]( https://www.youtube.com/watch?v=ChdjHNGgrzI )]
+
+#### Additional priors
+  [[Guo et al. (CVPR '22 Oral)]( https://arxiv.org/abs/2205.02836 )] Neural 3D Scene Reconstruction with the Manhattan-world Assumption
+  [[Project]( https://zju3dv.github.io/manhattan_sdf/)]
+  [[Code]( https://github.com/zju3dv/manhattan_sdf )]
+  [[Video]( https://www.youtube.com/watch?v=oEE7mK0YQtc )]
+
+#### Faster, memory-efficient
+[[Schwarz et al. (ARXIV '22)]( https://arxiv.org/pdf/2206.07695.pdf )] VoxGRAF: Fast 3D-Aware Image Synthesis with Sparse Voxel Grids
+
+[[Takikawa et al. (Siggraph '22)]( https://drive.google.com/file/d/1GTFPwQ3oe0etRJKP35oyRhHpsydTE_AR/view )] Variable Bitrate Neural Fields
+[[Project]( https://nv-tlabs.github.io/vqad/ )]
+[[Video]( https://www.youtube.com/watch?v=Lh0CoTRNFBA )]
+
+[[Deng et al. (CVPR '22)]( https://arxiv.org/abs/2107.02791 )] Depth-Supervised NeRF: Fewer Views and Faster Training for Free
+[[Project]( https://www.cs.cmu.edu/~dsnerf/ )]
+[[Code](https://github.com/dunbar12138/DSNeRF )]
+[[Video]( https://youtu.be/84LFxCo7ogk )]
+
+[[Takikawa et al. (CVPR '21)]( https://arxiv.org/pdf/2101.10994.pdf )] Neural Geometric Level of Detail: Real-time Rendering with Implicit 3D Shapes
+[[Project]( https://nv-tlabs.github.io/nglod/ )]
+[[Code]( https://github.com/nv-tlabs/nglod )]
+[[Video]( https://youtu.be/0cJZn_hV2Ms )]
 
 [[Xu et al. (CVPR '22)]( link )] Point-NeRF: Point-based Neural Radiance Fields
 [[Project]( https://xharlie.github.io/projects/project_sites/pointnerf/index.html )]
 [[Code]( https://github.com/Xharlie/pointnerf )]
 
-#### Compositional
-[[Palafox et al. (CVPR '22)]( https://arxiv.org/pdf/2201.08141.pdf )] SPAMs: Structured Implicit Parametric Models
-[[Project]( https://pablopalafox.github.io/spams/ )]
-[[Video]( https://www.youtube.com/watch?v=ChdjHNGgrzI )]
-
-#### Faster
-[[Schwarz et al. (ARXIV '22)]( https://arxiv.org/pdf/2206.07695.pdf )] VoxGRAF: Fast 3D-Aware Image Synthesis with Sparse Voxel Grids
-
-[[Wang et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Fourier_PlenOctrees_for_Dynamic_Radiance_Field_Rendering_in_Real-Time_CVPR_2022_paper.pdf )] Fourier PlenOctrees for Dynamic Radiance Field Rendering in Real-time
-[[Project]( https://aoliao12138.github.io/FPO/ )]
-[[Video]( https://youtu.be/XZSuQQOY6Ls )]
+[[Garbin et al. (CVPR '21)]( https://arxiv.org/abs/2103.10380 )] FastNeRF: High-Fidelity Neural Rendering at 200FPS
+[[Project]( https://microsoft.github.io/FastNeRF/ )]
+[[Video]( https://youtu.be/JS5H-Usiphg )]
 
 [[Sun et al. (CVPR '22 Oral)]( https://arxiv.org/pdf/2111.11215.pdf )] Direct Voxel Grid Optimization Super-fast Convergence for Radiance Fields Reconstruction
 [[Project]( https://sunset1995.github.io/dvgo/ )]
 [[Code]( https://github.com/sunset1995/DirectVoxGO )]
 [[Video]( https://youtu.be/gLmujfjRVGw )]
 [[DVGOv2](https://arxiv.org/abs/2206.05085)]
-
-[[Fang et al. (ARXIV '22)]( https://arxiv.org/abs/2205.15285 )] TiNeuVox: Fast Dynamic Radiance Fields with Time-Aware Neural Voxels
-[[Project]( https://jaminfong.cn/tineuvox/ )]
-[[Code]( https://github.com/hustvl/TiNeuVox )]
-[[Video]( https://youtu.be/sROLfK_VkCk )]
 
 [[Chen et al. (ARXIV '22)]( https://arxiv.org/pdf/2203.09517.pdf )] TensoRF: Tensorial Radiance Fields
 [[Project]( https://apchenstu.github.io/TensoRF/ )]
@@ -237,21 +259,27 @@ Note that this repo started as a self-collected paper list based on my own appet
 [[Code]( https://github.com/sxyu/svox2 )]
 [[Video]( https://www.youtube.com/watch?v=KCDd7UFO1d0&t=6s )]
 
+#### Dynamic
+[[Fang et al. (ARXIV '22)]( https://arxiv.org/abs/2205.15285 )] TiNeuVox: Fast Dynamic Radiance Fields with Time-Aware Neural Voxels
+[[Project]( https://jaminfong.cn/tineuvox/ )]
+[[Code]( https://github.com/hustvl/TiNeuVox )]
+[[Video]( https://youtu.be/sROLfK_VkCk )]
 
-#### Geometric
-  [[Takikawa et al. (Siggraph '22)]( https://drive.google.com/file/d/1GTFPwQ3oe0etRJKP35oyRhHpsydTE_AR/view )] Variable Bitrate Neural Fields
-  [[Project]( https://nv-tlabs.github.io/vqad/ )]
-  [[Video]( https://www.youtube.com/watch?v=Lh0CoTRNFBA )]
+[[Wang et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Fourier_PlenOctrees_for_Dynamic_Radiance_Field_Rendering_in_Real-Time_CVPR_2022_paper.pdf )] Fourier PlenOctrees for Dynamic Radiance Field Rendering in Real-time
+[[Project]( https://aoliao12138.github.io/FPO/ )]
+[[Video]( https://youtu.be/XZSuQQOY6Ls )]
 
-  [[Takikawa et al. (CVPR '21)]( https://arxiv.org/pdf/2101.10994.pdf )] Neural Geometric Level of Detail: Real-time Rendering with Implicit 3D Shapes
-  [[Project]( https://nv-tlabs.github.io/nglod/ )]
-  [[Code]( https://github.com/nv-tlabs/nglod )]
-  [[Video]( https://www.youtube.com/watch?v=Pi7W6XrFtMs )]
+[[Gao et al. (ICCV '21)]( https://arxiv.org/pdf/2105.06468.pdf )] Dynamic View Synthesis from Dynamic Monocular Video
+[[Project]( https://free-view-video.github.io/ )]
+[[Code](https://github.com/gaochen315/DynamicNeRF )]
+[[Video]( https://youtu.be/j8CUzIR0f8M )]
 
-  [[Guo et al. (CVPR '22 Oral)]( https://arxiv.org/abs/2205.02836 )] Neural 3D Scene Reconstruction with the Manhattan-world Assumption
-  [[Project]( https://zju3dv.github.io/manhattan_sdf/)]
-  [[Code]( https://github.com/zju3dv/manhattan_sdf )]
-  [[Video]( https://www.youtube.com/watch?v=oEE7mK0YQtc )]
+[[Li et al. (CVPR '21)]( https://arxiv.org/abs/2011.13084 )] Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes
+[[Project]( https://www.cs.cornell.edu/~zl548/NSFF// )]
+[[Code](https://github.com/zhengqili/Neural-Scene-Flow-Fields )]
+[[Video](https://www.cs.cornell.edu/~zl548/NSFF//overview.mp4 )]
+
+
 
 #### Editable
 [[Lazova et al. (CVPR '22)](https://arxiv.org/abs/2204.10850 )] Control-NeRF: Editable Feature Volumes for Scene Rendering and Manipulation
@@ -272,8 +300,25 @@ Note that this repo started as a self-collected paper list based on my own appet
 [[Project]( https://www.cs.cornell.edu/projects/arf/ )]
 [[Code & Data]( https://github.com/Kai-46/ARF-svox2 )]
 
+#### Generalizable
+[[Chen et al. (ICCV '21)]( https://arxiv.org/abs/2103.15595 )] MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo
+[[Project]( https://apchenstu.github.io/mvsnerf/ )]
+[[Code]( https://github.com/apchenstu/mvsnerf )]
+[[Video]( https://youtu.be/3M3edNiaGsA )]
 
-#### Generalizable, large-scale
+
+[[Yu et al. (CVPR '21)]( https://arxiv.org/pdf/2012.02190.pdf )] Neural Radiance Fields from One or Few Images
+[[Project]( https://alexyu.net/pixelnerf/)]
+[[Code]( https://github.com/sxyu/pixel-nerf )]
+[[Video]( https://youtu.be/voebZx7f32g )]
+
+[[Rebain et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Rebain_LOLNerf_Learn_From_One_Look_CVPR_2022_paper.pdf )] LOLNeRF: Learn from One Look
+[[Project]( https://ubc-vision.github.io/lolnerf/ )]
+
+[[Yu et al. (ARXIV '22)]( https://arxiv.org/pdf/2206.00665.pdf )] MonoSDF: Exploring Monocular Geometric Cues for Neural Implicit Surface Reconstruction
+[[Project]( https://niujinshuchong.github.io/monosdf )]
+
+#### Large-scale
 [[Tancik et al. (ARXIV '22)](https://arxiv.org/abs/2202.05263)] Block-NeRF: Scalable Large Scene Neural View Synthesis
 [[Project]( https://waymo.com/research/block-nerf/)]
 [[Video]( https://youtu.be/6lGMCAzBzOQ )]
@@ -281,22 +326,25 @@ Note that this repo started as a self-collected paper list based on my own appet
 [[Zhang et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_NeRFusion_Fusing_Radiance_Fields_for_Large-Scale_Scene_Reconstruction_CVPR_2022_paper.pdf )] NeRFusion: Fusing Radiance Fields for Large-Scale Scene Reconstruction
 [[Project]( https://jetd1.github.io/NeRFusion-Web/ )]
 
-[[Rebain et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Rebain_LOLNerf_Learn_From_One_Look_CVPR_2022_paper.pdf )] LOLNeRF: Learn from One Look
-[[Project]( https://ubc-vision.github.io/lolnerf/ )]
+#### Sparse input
 
-[[Yu et al. (ARXIV '22)]( https://arxiv.org/pdf/2206.00665.pdf )] MonoSDF: Exploring Monocular Geometric Cues for Neural Implicit Surface Reconstruction
-[[Project]( https://niujinshuchong.github.io/monosdf )]
-[[CodeComing]( https://github.com/autonomousvision/monosdf )]
+[[Suhail et al. (CVPR '22 Oral)]( https://arxiv.org/pdf/2112.09687.pdf )] Light Field Neural Rendering
+[[Project]( https://light-field-neural-rendering.github.io/ )]
+[[Code]( https://github.com/google-research/google-research/tree/master/light_field_neural_rendering )]
 
-#### Sparse
+[[Niemeyer et al. (CVPR '22)]( https://arxiv.org/abs/2112.00724 )] RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs
+[[Project]( https://m-niemeyer.github.io/regnerf )]
+[[Code]( https://github.com/google-research/google-research/tree/master/regnerf )]
+[[Video](https://www.youtube.com/watch?v=QyyyvA4-Kwc )]
 
-[[Yu et al. (CVPR '21)]( https://arxiv.org/pdf/2012.02190.pdf )] Neural Radiance Fields from One or Few Images
-[[Project]( https://alexyu.net/pixelnerf/)]
-[[Code]( https://github.com/sxyu/pixel-nerf )]
-[[Video]( link )]
+
+
+
+
+
 
 [[Long et al. (ARXIV '22)]( https://arxiv.org/pdf/2206.05737.pdf)] SparseNeuS: Fast Generalizable Neural Surface Reconstruction from Sparse views
-  [[Project]( https://www.xxlong.site/SparseNeuS/ )]
+[[Project]( https://www.xxlong.site/SparseNeuS/ )]
 
 ### [5. Frontiers on 3D Point Cloud Learning](#content)
 
@@ -341,12 +389,6 @@ Learning via Pose-aware Convolution
 [[Video]( https://youtu.be/Y-MlRRy0xJA )]
 [[Data](https://www.tensorflow.org/datasets/catalog/symmetric_solids)]
 
-
-[[Noguchi et al. (CVPR '22)]( https://openaccess.thecvf.com/content/CVPR2022/papers/Noguchi_Watch_It_Move_Unsupervised_Discovery_of_3D_Joints_for_Re-Posing_CVPR_2022_paper.pdf )] Watch It Move: Unsupervised Discovery of 3D Joints for Re-Posing of Articulated Objects
-[[Project]( https://nvlabs.github.io/watch-it-move/ )]
-[[Code]( https://github.com/NVlabs/watch-it-move )]
-[[Video]( https://youtu.be/oRnnuCVV89o )]
-
   [[Yang et al. (CVPR '22 Oral)](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_ArtiBoost_Boosting_Articulated_3D_Hand-Object_Pose_Estimation_via_Online_Exploration_CVPR_2022_paper.pdf)] ArtiBoost: Boosting Articulated 3D Hand-Object Pose Estimation via
   Online Exploration and Synthesis
 
@@ -360,21 +402,34 @@ Learning via Pose-aware Convolution
 
   [[Deng et al. (NeurIPS '21)]( https://arxiv.org/pdf/2112.07787.pdf )] Revisiting 3D Object Detection From an Egocentric Perspective
 
-  [[Harley et al. (CVPR '21)]( https://openaccess.thecvf.com/content/CVPR2021/papers/Harley_Track_Check_Repeat_An_EM_Approach_to_Unsupervised_Tracking_CVPR_2021_paper.pdf )] Track, Check, Repeat: An EM Approach to Unsupervised Tracking
-  [[Project]( http://www.cs.cmu.edu/~aharley/em_cvpr21/ )]
-  [[Code]( https://github.com/aharley/track_check_repeat )]
-
   [[Yin et al. (CVPR '22)]( https://arxiv.org/pdf/2203.15765.pdf )]  FisherMatch: Semi-Supervised Rotation Regression via Entropy-based Filtering
-  [[Project]( link )]
-  [[Code]( link )]
-  [[Video]( link )]
+  [[Project]( https://yd-yin.github.io/FisherMatch/ )]
+  [[Code]( https://github.com/yd-yin/FisherMatch )]
 
-  [[Grauman et al. (ARXIV '21)]( https://arxiv.org/abs/2110.07058 )] Ego4D: Around the World in 3,000 Hours of Egocentric Video
-  [[Project]( https://ego4d-data.org/ )]
-  [[Code]( https://github.com/EGO4D )]
+  [[Li et al. (NeurIPS '21)]( https://arxiv.org/abs/2111.00190 )]  Leveraging SE(3) Equivariance for Self-Supervised Category-Level Object Pose Estimation
+  [[Project]( https://dragonlong.github.io/equi-pose/ )]
+  [[Code](https://github.com/dragonlong/equi-pose)]
 
 
-### [7. Neural Motion, Novel Rendering](#content)
+### [7. Neural Motion, Deformation Generation](#content)
+  [[Raab et al. (Siggraph '22)]( https://arxiv.org/abs/2206.08010 )] MoDi: Unconditional Motion Synthesis from Diverse Data
+  [[Project(need fix)]( https://sigal-raab.github.io/MoDi )]
+  [[Video]( https://youtu.be/lRkdF8y3Du4)]
+
+  [[Henter et al. (Siggraph Asia '20)]( http://kth.diva-portal.org/smash/get/diva2:1471598/FULLTEXT01.pdf )] MoGlow: Probabilistic and controllable motion synthesis using normalising flows
+  [[Project]( https://simonalexanderson.github.io/MoGlow/ )]
+  [[Code](https://github.com/simonalexanderson/MoGlow )]
+  [[Video](https://youtu.be/pe-YTvavbtA )]
+
+  [[Wang et al. (NeurIPS '21)]( https://arxiv.org/abs/2106.11944 )]   MetaAvatar: Learning Animatable Clothed Human Models from Few Depth Images
+  [[Project]( https://neuralbodies.github.io/metavatar/ )]
+  [[Code](https://github.com/taconite/MetaAvatar-release )]
+  [[Video](https://youtu.be/AwOwdKxuBXE )]
+
+  [[Li et al. (SIGGRAPH '22)]( https://arxiv.org/abs/2205.02625 )] GANimator: Neural Motion Synthesis from a Single Sequence
+  [[Project]( https://peizhuoli.github.io/ganimator/ )]
+  [[Code](https://github.com/PeizhuoLi/ganimator )]
+  [[Video]( https://youtu.be/OV9VoHMEeyI )]
 
   [[Taheri et al. (CVPR '22)]( https://arxiv.org/abs/2112.11454 )] GOAL: Generating 4D Whole-Body Motion for Hand-Object Grasping
   [[Project]( https://goal.is.tue.mpg.de/ )]
@@ -382,10 +437,6 @@ Learning via Pose-aware Convolution
   [[Code]( https://github.com/otaheri/GOAL )]
 
   [[AIGERMAN et al. (SIGGRAPH '22)]( https://arxiv.org/pdf/2205.02904.pdf )]  Neural Jacobian Fields: Learning Intrinsic Mappings of Arbitrary　Meshes
-
-  [[Vicini et al. (SIGGRAPH '22)]( http://rgl.s3.eu-central-1.amazonaws.com/media/papers/Vicini2022sdf_1.pdf )] Differentiable Signed Distance Function Rendering
-  [[Project]( http://rgl.epfl.ch/publications/Vicini2022SDF )]
-  [[Video]( http://rgl.s3.eu-central-1.amazonaws.com/media/papers/Vicini2022sdf.mp4 )]
 
   [[Kim et al. (ARXIV '22)]( https://arxiv.org/pdf/2202.04307.pdf )] Conditional Motion In-betweening
   [[Project]( https://jihoonerd.github.io/Conditional-Motion-In-Betweening/ )]
@@ -396,18 +447,10 @@ Learning via Pose-aware Convolution
   [[Project]( https://nsarafianos.github.io/bodymap )]
   [[Supp]( https://nsarafianos.github.io/assets/bodymap/bodymap_suppl.pdf )]
 
-  [[Or-El et al. (ARXIV '21)]( https://arxiv.org/abs/2112.11427 )] StyleSDF: High-Resolution 3D-Consistent Image and Geometry Generation
-  [[Project]( https://stylesdf.github.io/ )]
-
   [[Muralikrishnan et al. (CVPR '22)]( https://sanjeevmk.github.io/glass_webpage/resources/glass_fullRes.pdf )] GLASS: Geometric Latent Augmentation for Shape Spaces
   [[Project]( https://sanjeevmk.github.io/glass_webpage/ )]
   [[Code]( https://github.com/sanjeevmk/glass/ )]
   [[Video]( https://sanjeevmk.github.io/glass_webpage/video/glass_dist.mp4 )]
-
-  [[Sawhey et al. (SIGGRAPH '22)]( https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree-small.pdf )]  Grid-free Monte Carlo for PDEs with spatially varying coefficients
-  [[Project]( https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree.html )]
-  [[Code]( https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree-reference-implementation.zip )]
-  [[Supp.]( https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree-supplemental.pdf )]
 
 ### [8. 3D Representations Learning for Robotics](#content)
 
@@ -466,14 +509,16 @@ Learning via Pose-aware Convolution
   [[Code]( https://github.com/cassiePython/CLIPNeRF )]
   [[Video]( https://cassiepython.github.io/clipnerf/images/video.mp4 )]
 
+#### Volume Rendering
+  [[Sawhey et al. (SIGGRAPH '22)]( https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree-small.pdf )]  Grid-free Monte Carlo for PDEs with spatially varying coefficients
+  [[Project]( https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree.html )]
+  [[Code]( https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree-reference-implementation.zip )]
 
 ### More resources
 - [Amesome 3D machine learning collection](https://github.com/timzhang642/3D-Machine-Learning)
 
-- [NeRF papers citation](https://neuralfields.cs.brown.edu/index.html)
-<!-- [xxxx 2022 tutorial](https://neuralfields.cs.brown.edu/xxxx22.html)
-https://github.com/SilenceOverflow/Awesome-SLAM -->
+- [NeRF Fields in Visual Computing](https://neuralfields.cs.brown.edu/index.html)
 
-- [awesome-point-cloud-registration](https://github.com/wsunid/awesome-point-clouds-registration)
+- [Awesome-point-cloud-registration](https://github.com/wsunid/awesome-point-clouds-registration)
 
-- [awesome-equivariant-network](https://github.com/Chen-Cai-OSU/awesome-equivariant-network/blob/main/README.md#content)
+- [Awesome-equivariant-network](https://github.com/Chen-Cai-OSU/awesome-equivariant-network/blob/main/README.md#content)
